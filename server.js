@@ -3,7 +3,7 @@ import { config } from 'dotenv';
 import { set} from 'mongoose';
 import cors from 'cors';
 import connectDb from './database/index.js';
-import rootRouter from './routes/product.route.js';
+import rootRouter from './routes/index.route.js';
 const app = express()
 config();
 app.use(express.json())
